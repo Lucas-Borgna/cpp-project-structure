@@ -1,4 +1,8 @@
-#Example C++ proeject structure using cmake
+#Example C++ project structure using cmake
+
+This is a simple project example for how to structure a C++ software development project from some basic cmake commands. 
+Although things can become a lot more complicated, this shows the basic gist of it. There is also different accepted conventions, and this is by no means the most correct one.
+
 
  main program executable depends on libraries myFunction declared in myFunction.h and defined in myFunction.cpp. This must then be linked in the CMakeLists.txt.
  
